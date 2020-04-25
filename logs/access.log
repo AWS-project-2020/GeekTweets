@@ -1,0 +1,2 @@
+[2020-04-25 17:52:47.599] [INFO] normal - ::1 - - "GET / HTTP/1.1" 200 4993 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+[2020-04-25 17:53:43.970] [INFO] normal - ::1 - - "GET / HTTP/1.1" 200 4867 "" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"

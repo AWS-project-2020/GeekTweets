@@ -1,0 +1,24 @@
+<%- include header %>
+<%if(!user){%>
+<div class="container">
+    <div class="jumbotron">
+
+        <h1>Bienvenue sur GeekTweets</h1>
+
+        <p>Twitter for Geeks, Get your Geeky ideas out !</p>
+
+        <p>
+            <a class="btn btn-primary btn-lg" href="/login">Se connecter</a>
+            <a class="btn btn-lg btn-default" href="/reg">Inscrivez-vous maintenant</a>
+        </p>
+    </div>
+</div>
+<%} else{%>
+<%- include say %>
+<%}%>
+<%- include posts %>
+<script src="/javascripts/jquery-2.1.4.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+<%if(user) { %>
+<div class="container">
+<form action="/post" class="form-inline well text-center" method="post">
+    <input type="text" class="form-control" placeholder="What's new Geek ?" id="post" name="post" required>
+    <button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-comment text-primary-"></i> Tweet</button>
+</form>
+</div>
+<% } %>
