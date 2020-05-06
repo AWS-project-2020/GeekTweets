@@ -8,6 +8,13 @@ var app = require('../app');
 var debug = require('debug')('microblog:server');
 var http = require('http');
 
+
+// Simple endpoint
+app.get('/', function(req, res) {
+  res.send('Time to secure your application...');
+});
+
+
 /**
  * Get port from environment and store in Express.
  */
