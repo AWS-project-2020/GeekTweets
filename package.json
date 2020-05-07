@@ -17,7 +17,7 @@
     "helmet": "^3.22.0",
     "log4js": "*",
     "mongodb": "*",
-    "morgan": "~1.5.1",
+    "morgan": "~1.9.1",
     "serve-favicon": "~2.2.0"
   }
 }
