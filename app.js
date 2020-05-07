@@ -15,11 +15,8 @@ var routes = require('./routes/index');
 
 var app = express();
 var helmet = require('helmet');
-
-
-
-
-
+app.use(helmet());
+//app.use(helmet.xssFilter());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -37,7 +34,10 @@ app.use(session({
     secret: settings.cookieSecret,
     store: new MongoStore({
         db: settings.db
-    })
+    }),
+    cookie: { secure: true,
+            httpOnly: true
+          }
 
 }));
 
